@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Remove="Buscar.png" />
+    <None Remove="Resources\Agregar.png" />
     <None Remove="Resources\Buscar.png" />
     <None Remove="Resources\Eliminar.png" />
     <None Remove="Resources\Guardar.png" />
@@ -26,12 +27,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BLL\" />
-    <Folder Include="Entidades\" />
     <Folder Include="UI\" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Agregar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\Buscar.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
